@@ -7,8 +7,8 @@ public class Story {
         Console.CursorVisible = false;
         Console.ForegroundColor = ConsoleColor.DarkRed;
         Console.Title = "Story";
-        Console.SetWindowSize(80, 25);
-        Console.SetBufferSize(80, 25);
+        Console.SetWindowSize(80,25);
+        Console.SetBufferSize(80,25);
         // The Beginning
         Console.WriteLine("This is a story that no one remembers...");
         System.Threading.Thread.Sleep(2000);
