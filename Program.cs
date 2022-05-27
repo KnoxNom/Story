@@ -30,6 +30,7 @@ public class Story {
                 name = "Writer";
                 break;
         }
+
         // Location
         Console.WriteLine("Next, what location do you want to begin in? i.e: City");
         string location = Console.ReadLine();
@@ -40,6 +41,7 @@ public class Story {
                 location = "forest";
                 break;
         }
+
         // Species
         Console.WriteLine("Now, what species are you? i.e: 'Unknown'");
         string species = Console.ReadLine();
@@ -50,14 +52,13 @@ public class Story {
                 species = "Unknown";
                 break;
         }
+
         System.Threading.Thread.Sleep(3000);
         Console.ResetColor();
         Console.Clear();
         // Prologue
         Console.ForegroundColor = ConsoleColor.DarkGreen;
-        Console.WriteLine("Once long a time ago, there was the {0} which ruled over the world though on a unfaithful day where the world went dark a great war broke out killing all of the {0} and only leaving behind remains of their creations...", species);
-        System.Threading.Thread.Sleep(7000);
-        Console.WriteLine("And that is where our story begins...");
+        Console.WriteLine("Chapter: 0 - Prologue");
         System.Threading.Thread.Sleep(3000);
     }
 }
