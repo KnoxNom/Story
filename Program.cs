@@ -52,13 +52,24 @@ public class Story {
                 species = "Unknown";
                 break;
         }
-
+        
         System.Threading.Thread.Sleep(3000);
         Console.ResetColor();
         Console.Clear();
         // Prologue
         Console.ForegroundColor = ConsoleColor.DarkGreen;
         Console.WriteLine("Chapter: 0 - Prologue");
-        System.Threading.Thread.Sleep(3000);
+        System.Threding.Thread.Sleep(2000);
+        Console.WriteLine("There once lived a great race called {0}...", species);
+        System.Threding.Thread.Sleep(2000);
+        Console.WirteLine("Though one dark day a great war broke out...");
+        System.Threding.Thread.Sleep(2000);
+        Console.WriteLine("The war caused a mass extinction of the {0}...", species);
+        System.Threding.Thread.Sleep(2000);
+        Console.WriteLine("Many centuries pass and new species emerged but soon...they started a war...");
+        System.Threding.Thread.Sleep(2000);
+        Console.WriteLine("This is where our journey begins a world in chaos fighting for power what shall you do...");
+        System.Threading.Thread.Sleep(5000);
+        Console.Clear();
     }
 }
