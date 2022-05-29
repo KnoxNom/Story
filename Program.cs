@@ -30,7 +30,6 @@ public class Story {
                 name = "Writer";
                 break;
         }
-
         // Location
         Console.WriteLine("Next, what location do you want to begin in? i.e: City");
         string location = Console.ReadLine();
@@ -41,7 +40,6 @@ public class Story {
                 location = "forest";
                 break;
         }
-
         // Species
         Console.WriteLine("Now, what species are you? i.e: 'Unknown'");
         string species = Console.ReadLine();
@@ -52,7 +50,6 @@ public class Story {
                 species = "Unknown";
                 break;
         }
-        
         System.Threading.Thread.Sleep(3000);
         Console.ResetColor();
         Console.Clear();
