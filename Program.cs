@@ -21,13 +21,13 @@ public class Story {
         // The Introduction
         Console.ForegroundColor = ConsoleColor.DarkBlue;
         // Name
-        Console.WriteLine("Before we begin may I have your name? i.e: Writer");
+        Console.WriteLine("Before we begin may I have your name? i.e: Ace");
         string name = Console.ReadLine();
         switch (name)
         {
             case "":
-                Console.WriteLine("Hmm, I see in that case you shall be known as 'Writer'...");
-                name = "Writer";
+                Console.WriteLine("Hmm, I see in that case you shall be known as 'Ace'...");
+                name = "Ace";
                 break;
         }
         // Location
@@ -68,5 +68,26 @@ public class Story {
         Console.WriteLine("This is where our journey begins a world in chaos fighting for power what shall you do...");
         System.Threading.Thread.Sleep(5000);
         Console.Clear();
+        // The Void
+        Console.WriteLine("Some where inside a {0}, we find a {1} scavenging through rubble...", location, species);
+        System.Threading.Thread.Sleep(2000);
+        Console.WriteLine("That {0} is called {1} and they are the last {0} left...", species, name);
+        System.Threading.Thread.Sleep(2000);
+        Console.WriteLine("{0} finds a old book it has some unknown symbols on the cover...", name);
+        System.Threading.Thread.Sleep(2000);
+        Console.WriteLine("{0} seems oddly happy?...", name);
+        System.Threading.Thread.Sleep(2000);
+        Console.WriteLine("{0} opens the book...", name);
+        System.Threading.Thread.Sleep(5000);
+        Console.WriteLine("Nothing...theres nothing there its all blank...");
+        System.Threading.Thread.Sleep(5000);
+        Console.WriteLine("{0} seems unhappy and throws the book but then...", name);
+        System.Threading.Thread.Sleep(2000);
+        Console.WriteLine("A dark beam strikes down at {0}...", name);
+        System.Threading.Thread.Sleep(3000);
+        Console.WriteLine("Theres nothing plants, weeds anything that was alive are all dead in a 1KM radius...");
+        System.Threading.Thread.Sleep(5000);
+        Console.WriteLine("The place where {0} was standing now is but a hole one that never ends...", name);
+        System.Theading.Thread.Sleep(7000);
     }
 }
