@@ -4,6 +4,7 @@
 
 - [ ] Re-write the code in C or C++ cause why not?
 - [ ] Make a logo for Story
+- [ ] Get a proofreader for the Story
 
 ## Completed
 
