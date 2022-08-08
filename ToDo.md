@@ -2,9 +2,9 @@
 
 ## ToDo
 
-- [ ] Re-write the code in C or C++ cause why not?
-- [ ] Make a logo for Story
-- [ ] Get a proofreader for the Story
+- [ ] Create a [discord bot](idea.md) for Story.
+- [ ] Make a logo for Story.
+- [ ] Get a proofreader for the Story.
 
 ## Completed
 
@@ -13,3 +13,5 @@
 - [X] Add more options so, it isn't a reading simulator.
 
 ## Discarded
+
+~~- [ ] Re-write the code in C or C++ cause why not?~~
