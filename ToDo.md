@@ -3,7 +3,6 @@
 ## ToDo
 
 - [ ] Create a [discord bot](idea.md) for Story.
-- [ ] Make a logo for Story.
 - [ ] Get a proofreader for the Story.
 
 ## Completed
@@ -14,4 +13,5 @@
 
 ## Discarded
 
+~~- [ ] Make a logo for Story.~~
 ~~- [ ] Re-write the code in C or C++ cause why not?~~
